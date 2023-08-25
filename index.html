@@ -4,7 +4,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=9, IE=8, IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <meta name="supported-color-schemes" content="light dark">
@@ -24,11 +24,19 @@
     }
 
     p {
-      font-size: 15px;
+      margin: 0;
+      padding: 0;
     }
 
     img {
       border: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      padding: 0;
     }
 
     a {
@@ -43,12 +51,6 @@
       text-align: center;
 
     }
-
-
-    .menu-bar {}
-
-
-
 
     @media screen and (max-width: 599.98px) {
       .two-columns .padding {
@@ -88,18 +90,19 @@
       img.three-col-img-last {
         width: 200px !important;
         max-width: 200px !important;
+
+
+        .three-columns .padding {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
       }
 
-      .three-columns .padding {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-      }
-    }
-
-    @media screen and (max-width: 399.98px) {
-      img.three-col-img {
-        width: 200px !important;
-        max-width: 200px !important;
+      @media screen and (max-width: 399.98px) {
+        img.three-col-img {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
       }
     }
 
@@ -133,7 +136,10 @@
 
 </head>
 
-<body style="Margin:0;padding:0;min-width:100%;background-color:#0bea51;">
+<body style="Margin:0;
+            padding:0;
+            min-width:100%;
+            background-color:#0bea51;">
 
   <!--[if (gte mso 9)|(IE)]>
       <style type="text/css">
@@ -142,9 +148,15 @@
       </style>
    <![endif]-->
 
-  <center style="width: 100%; table-layout:fixed; background-color: #f7f7f7; padding-bottom: 40px;">
-    <div>
-      <div style="max-width: 600px; background-color: #ffffff; /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */ ">
+  <center style="width: 100%;
+                table-layout:fixed;
+                background-color: #f7f7f7;
+                padding-bottom: 40px;">
+    <div border="0" cellpadding="0" cellspacing="0" style="margin: 0; width:" 100%;>
+
+      <div style="max-width: 600px;
+                  background-color: #ffffff;
+                  /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */ ">
 
         <!-- Preheader (remove comment) -->
         <div style="font-size: 0px;
@@ -353,12 +365,13 @@
   </tr> -->
 
   <!-- START OF ABOUT JOLLIBEE -->
-  <center style="width: 100%; table-layout:fixed; background-color: #f7f7f7; padding-bottom: 40px;">
+  <center style="width: 100%; table-layout:fixed; background-color: #f7f7f7; padding-bottom: 20px;">
     <div style="max-width: 600px; background-color: #ffffff; /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */ ">
       <tr>
         <td>
           <table ">
-            <img src=" assets/chicken-bucket.jpg" alt="Chicken in bucket icon" style="padding-top: 20px;">
+            <img src=" assets/chicken-bucket.jpg" alt="Chicken in bucket icon" style="padding-top: 20px;
+                      padding-bottom: 20px;">
           </table>
 
         </td>
@@ -385,7 +398,7 @@ s-serif;">
                           padding-left: 45px;
                           padding-right: 45px;
                           ">EATER called our chicken:</h1>
-            <h2 style="font-weight: bold;
+            <h2 style="font-weight: 700;
                           font-size: 27px;
                           font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                           color: rgb(24, 24, 24);
@@ -396,10 +409,11 @@ s-serif;">
 
             <p style="padding: 0 35px 0 35px;
                             font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-                            font-weight: 600;
-                            font-size: 16px;
-                            letter-spacing: 1px;
-                            padding-bottom: 40px;">
+                            font-weight: 500;
+                            font-size: 18px;
+                            letter-spacing: .5px;
+                            padding-bottom: 40px;
+                            font-stretch: expanded;">
               The gravy... brings out a whole other realm of flavor — bright,
               tangy, rich. It’s the chicken’s perfect complement.</p>
           </table>
@@ -410,17 +424,18 @@ s-serif;">
           <table>
             <button type="button" style="background-color:#efbb40;
                           border: none;
-                          border-radius: 30px;
-                          padding: 15px 65px;
+                          border-radius: 35px;
+                          padding: 20px 60px;
                           margin-bottom: 30px;">
 
               <a href="#" style=" color: black;
                                   font-weight: 700;
-                                  font-size: 20px;
-                                  padding: 25px 25px;
-                                  letter-spacing: -1px; ">
+                                  font-size: 25px;
+                                  padding: 30px 20px;
+                                  letter-spacing: -1px;
+                                  font-kerning: auto; ">
 
-                Explore our Menu</a></button>
+                Explore Our Menu</a></button>
           </table>
         </td>
       </tr>
@@ -429,13 +444,297 @@ s-serif;">
   </center>
   <!-- END OF ABOUT JOLLIBEE -->
 
+  <!-- START DELIVERY PROMO -->
+  <center style="width: 100%; table-layout:fixed; background-color: #f7f7f7; padding-bottom: 20px;">
+
+    <div style="max-width: 600px; background-color: #ffffff; /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */ ">
+      <tr>
+        <td>
+          <table>
+            <img src=" assets/jollibee-door-bag-icon.jpg" alt="Chicken in bucket icon" style="padding-top: 20px;
+                            padding-bottom: 20px;">
+          </table>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <table line-height="90%" style="font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, san=s-serif;">
+            <P style="color: #eb4c69;
+                          padding-top: 8px;
+                          padding-bottom: 0px;
+                          padding-left: 46px;
+                          padding-right: 46px;
+                          font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                          font-size: 18px;
+                          font-weight: 400;">
+              About Jollibee</P>
+
+            <h1 style="font-weight: bold;
+                          font-size: 35px;
+                          font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                          color: rgb(24, 24, 24);
+                          padding-left: 45px;
+                          padding-right: 45px;
+                          padding-bottom: 30px;
+                          padding-top: 0px;
+                          ">Get Your Meal Delivered</h1>
+
+            <h1 style="font-weight: bold;
+                          font-size: 35px;
+                          font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                          color: rgb(24, 24, 24);
+                          padding-left: 45px;
+                          padding-right: 45px;
+                          padding-bottom: 30px;
+                          ">Straight to Your Door!</h1>
+
+            <tr>
+              <td align="center" style="max-width: 80%; background-color: rgb(219, 236, 242); border-radius: 15px;">
+                <table width="550px">
+                  <P style="color: #eb4c69;
+                                            padding-top: 20px;
+                                            padding-bottom: 0px;
+                                            padding-left: 46px;
+                                            padding-right: 46px;
+                                            font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                            font-size: 18px;
+                                            font-weight: 400;">
+                    Free delivery coupon code:</P>
+
+                  <h1 style="font-weight: 700;
+                                              font-size: 45px;
+                                              font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                              color: rgb(24, 24, 24);
+                                              padding-left: 45px;
+                                              padding-right: 45px;
+                                              padding-bottom: 0px;
+                                              padding-top: 0px;
+                                              ">FREE4ME</h1>
+
+                  <P style="color: #000000;
+                                            padding-left: 46px;
+                                            padding-right: 46px;
+                                            font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                            font-size: 14px;
+                                            font-kerning: auto;
+                                            font-weight: 700;">
+                    Any order over $15</P>
+
+                  <button type="button" style="background-color:#efbb40;
+                                      border: none;
+                                      border-radius: 30px;
+                                      padding: 15px 65px;
+                                      margin-bottom: 30px;">
+
+                    <a href="#" style=" color: black;
+                                      font-weight: 700;
+                                      font-size: 20px;
+                                      padding: 25px 25px;
+                                      letter-spacing: -1px; ">
+
+                      Order now</a></button>
+
+                  <p style="padding: 0 35px 0 35px;
+                                                  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                                  font-weight: 500;
+                                                  font-size: 18px;
+                                                  letter-spacing: .5px;
+                                                  padding-bottom: 40px;
+                                                  font-stretch: expanded;">
+                    *Coupons can only be used with a registered Jollibee account.
+                    Coupons will not work using guest checkout.</p>
+
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table class="img-big">
+
+                  <img src="assets/jollibee-delivery.jpg" alt="Delivery person giving delivery" width="100%"
+                    style="padding-top: 30px;">
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </div>
+  </center>
 
 
 
+  <!-- END OF DELIVERY PROMO -->
+
+  <!-- START OF FOOTER -->
+  <center style="width: 100%; table-layout:fixed; background-color: #f7f7f7; padding-bottom: 60px;">
+    <div style="max-width: 600px; background-color: #ffffff; /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */ ">
+      <tr>
+        <td>
+          <table>
+            <h1 style="font-weight: 700;
+                      font-size: 20px;
+                      font-family:'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                      color: rgb(24, 24, 24);
+                      padding-left: 45px;
+                      padding-right: 45px;
+                      padding-top: 40px;
+                      padding-bottom: 20px;
+                      ">Download the Jollibee App</h1>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <a class="appStore" href="#"><img src="assets/google-play-logo.jpg" alt="Get it on Google Play"
+                style="padding: 5px"></a>
+            <a class="appStore" href="#"><img src="assets/app-store.png" alt="Download on App Store"
+                style="padding:5px"></a>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td cellpadding="0">
+          <table width="80%" style="border-spacing:0; margin-top: 20px;" role="presentation">
+
+            <tr>
+              <td height="3" style="background-color: #d9d7d7; ">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <a href="#"><img src="assets/fb-icon.jpg" style="padding: 20px 5px"></a>
+            <a href="#"><img src="assets/insta-icon.jpg" style="padding: 20px 5px"></a>
+            <a href="#"><img src="assets/twit-icon.jpg" style="padding: 20px 5px"></a>
+            <a href="#"><img src="assets/tiktok-icon.jpg" style="padding: 20px 5px"></a>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <p style="padding: 0 35px 0 35px;
+                  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                  font-weight: 500;
+                  font-size: 18px;
+                  letter-spacing: .5px;
+                  padding-bottom: 30px;
+                  font-stretch: expanded;">
+              <a href="#" style="color: #e91f47;
+                              text-decoration: underline;
+                              ">Update your profile</a>
+              for special deals
+            </p>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <p style="padding: 0 35px 0 35px;
+                            font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                            font-weight: 500;
+                            font-size: 13px;
+                            letter-spacing: auto;
+                            padding-bottom: 10px;
+                            margin: 0;
+                            font-stretch: expanded;">Please do not reply directly to this automated email. This email
+              inbox is not monitored for
+              response. For questions, please email us at:
+            </p>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <p style="padding-bottom: 10px;
+                        font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                        font-weight: 400;
+                        font-size: 12px;
+                        font-stretch: expanded;
+                        ">
+              <a href="#" style="color: #e91f47;
+                                font-size: 12px;
+                                text-decoration: underline;
+                                ">customerservice#jollibeeusa.com</a>
+            </p>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table>
+            <p style="padding-bottom: 20px;
+                  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                  font-weight: 500;
+                  font-size: 12px;
+                  letter-spacing: .5px;
+                  font-stretch: expanded;">No longer want to receive these emails?
+              <a href="#" style="color: #e91f47;
+                              font-size: 12px;
+                              text-decoration: underline;
+                              ">Unsubscribe</a>
+
+            </p>
+          </table>
+        </td>
+      </tr>
+
+      <td>
+        <table>
+          <p style="padding-bottom: 5px;
+                          font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                          font-weight: 500;
+                          font-size: 12px;
+                          letter-spacing: normal;
+
+                          font-stretch: expanded;">© 2023 Jollibee |
+            <a href="#" style="color: #e91f47;
+                                      font-size: 12px;
+                                      text-decoration: underline;
+                                      ">Privacy Policy</a> | <a href="#" style="color: #e91f47;
+                                                                            font-size: 12px;
+                                                                            text-decoration: underline;
+                                                                            ">Terms of Service</a>
+
+          </p>
+        </table>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <table style="padding-bottom: 40px;">
+            <p style="
+            font-family: 'Nunito' , 'Helvetica Neue' , Helvetica, Arial, sans-serif;
+              font-weight: 500; font-size: 12px; letter-spacing: normal; padding-bottom: 0px; margin: 0; font-stretch:
+              expanded;">Jollibee Foods 100 N. Barranca St. Suite 1200 Covina, CA 91791
+            </p>
+          </table>
+        </td>
+      </tr>
 
 
+    </div>
+  </center>
+  <!-- END OF FOOTER -->
 
-
+  </table>
+  </td>
+  </tr>
 
   </table>
 
@@ -445,9 +744,11 @@ s-serif;">
          </table>
          <![endif]-->
 
+
+
+
   </div>
   </center>
-
 </body>
 
 </html>
